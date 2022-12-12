@@ -14,8 +14,8 @@ function selectTopics() {
         console.log("Let's study CSS!");
     } else if (randomTopic === 'Git') {
         console.log("Let's study Git!");
-    } else if (randomTopic === 'JavaScript!') {
-        console.log("Let's study JavaScript!");
+    } else if (randomTopic === 'JavaScript') {
+        console.log("Let's study JavaScript!");    
     } else {
         console.log('Please try again!');
     }
@@ -23,7 +23,7 @@ function selectTopics() {
 
 console.log('Here are the topics we learned through Prework:');
 listTopics();
-console.log('Which topic should we study first?');
+console.log('Which topic should we study first?')
 selectTopics();
 
 
